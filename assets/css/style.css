@@ -10,6 +10,7 @@ body {
 	margin: 0;
 	padding: 0;
 	font-family: sans-serif;
+    background-color: #F9F9F9;
 }
 
 #container {
@@ -19,7 +20,7 @@ body {
 
 /* Navbar */
 
-ul {
+nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -27,11 +28,11 @@ ul {
     background-color: #333;
 }
 
-li {
+nav li {
     float: left;
 }
 
-li a {
+nav li a {
     display: block;
     color: white;
     text-align: center;
@@ -39,21 +40,21 @@ li a {
     text-decoration: none;
 }
 
-li a:hover {
+nav li a:hover {
     background-color: #111;
 }
 
-.active {
+nav .active {
     background-color: #4CAF50;
 }
 
-.active:hover {
+nav .active:hover {
 	background-color: #3D8940;
 }
 
 /* Footer */
 
-footer{
+footer {
     background-color:#333;
     color: white;
     position:absolute;
@@ -71,7 +72,7 @@ footer{
 ================================*/
 
 .quiz {
-    background-color: #F3F3F3;
+    background-color: #E8E8E8;
     border-radius: 5px;
     width: 60%;
     height: 200px;
@@ -100,6 +101,10 @@ footer{
     background-color: #ccc;
     border:0;
     border-radius: 3px;
+}
+
+.btnQuiz:hover {
+    background-color: #C3C3C3;
 }
 
 /*=====  fin du style de quiz.php  ======*/
