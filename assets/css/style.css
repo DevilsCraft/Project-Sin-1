@@ -1,0 +1,67 @@
+/**
+ * Feuille de style CSS du site
+ */
+
+/*=============================================
+=            Style de default.php            =
+=============================================*/
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+#container {
+	margin-right: 3%;
+	margin-left: 3%;
+}
+
+/* Navbar */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+.active:hover {
+	background-color: #3D8940;
+}
+
+/* Footer */
+
+footer{
+    background-color:#333;
+    color: white;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    text-align: center;
+    height: 30px;
+    padding-top: 10px;
+}
+
+/*=====  Fin du style de default.php  ======*/
