@@ -11,6 +11,20 @@
  */
 
 /**
+ *
+ *	TODO:
+ *	- Quentin A (CP)
+ * 		- PHP & Arborescence / JQUERY (?)
+ *	- Pierre 
+ *		- HTML / CSS
+ *	- Numa 
+ *		- HTML / CSS
+ *	- Quentin M 
+ *		- HTML / CSS / JQUERY (?)
+ */
+
+
+/**
  * Si la variable $_GET['p'] existe alors ... sinon ...
  */
 
