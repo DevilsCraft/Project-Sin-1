@@ -11,9 +11,11 @@
 	<nav>
 		
 		<ul>
-			<li><a href="/" class="active">Accueil</a></li>
-			<li><a href="#">Page 2</a></li>
-			<li><a href="#">Page 3</a></li>
+			<li><a href="index.php?p=home" class="active">Accueil</a></li>
+			<li><a href="index.php?p=page2">Page 2</a></li>
+			<li><a href="index.php?p=page3">Page 3</a></li>
+			<li><a href="index.php?p=page4">Page 4</a></li>
+			<li><a href="index.php?p=quiz">Quiz</a></li>
 		</ul>
 
 	</nav>

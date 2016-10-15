@@ -14,7 +14,7 @@
  *
  *	TODO:
  *	- Quentin A (CP)
- * 		- PHP & Arborescence / JQUERY (?)
+ * 		- PHP & Arborescence (HTML / CSS) / JQUERY (QUIZ)
  *	- Pierre 
  *		- HTML / CSS
  *	- Numa 
@@ -51,6 +51,10 @@ switch ($p) {
 
 	case 'home':
 		require_once('views/home.php');
+		break;
+
+	case 'quiz':
+		require_once('views/quiz.php');
 		break;
 	
 	default:
