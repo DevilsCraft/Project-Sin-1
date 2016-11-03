@@ -1,0 +1,110 @@
+/**
+ * Feuille de style CSS du site
+ */
+
+/*=============================================
+=           default            =
+=============================================*/
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+    background-color: #F9F9F9;
+}
+
+#container {
+	margin-right: 3%;
+	margin-left: 3%;
+}
+
+/* Navbar */
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #111;
+}
+
+nav .active {
+    background-color: #4CAF50;
+}
+
+nav .active:hover {
+	background-color: #3D8940;
+}
+
+/* Footer */
+
+footer {
+    background-color:#333;
+    color: white;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    text-align: center;
+    height: 30px;
+    padding-top: 10px;
+}
+
+/*=====  Fin du style de default.php  ======*/
+
+/*================================
+=            quiz.php            =
+================================*/
+
+.quiz {
+    background-color: #E8E8E8;
+    border-radius: 5px;
+    width: 60%;
+    height: 200px;
+    padding-top: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.answersQuizBloc {
+    margin-top: 30px;
+}
+
+.answersQuiz {
+    text-align: center;
+    float: left;
+    margin-left: 15%;
+}
+
+.btnQuiz {
+    font-weight: bold;
+    text-align: right;
+    margin-top: 70px;
+    margin-left: 45%;
+    padding: 10px;
+    position: absolute;
+    background-color: #ccc;
+    border:0;
+    border-radius: 3px;
+}
+
+.btnQuiz:hover {
+    background-color: #C3C3C3;
+}
+
+/*=====  fin du style de quiz.php  ======*/
